@@ -1,0 +1,19 @@
+# Idea project files
+*.iml
+.idea/
+.idea
+.idea_modules
+*.iws
+out
+gen
+
+# Python
+*.egg-info
+.eggs
+.pytest_cache
+*.pyc
+distribute*
+build
+dist
+pytest_runner*.egg
+__pycache__
