@@ -8,11 +8,11 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-flask = "2.3.3"
+flask = "3.0.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-pythoncrudrestapi = "pythoncrudrestapi:main"
+pythoncrudrestapi = "pythoncrudrestapi:app.run(host='0.0.0.0', port=8080)"
