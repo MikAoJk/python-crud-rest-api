@@ -10,4 +10,4 @@ RUN poetry install --only main --no-root --no-interaction
 
 ENV PATH="/bin:/usr/bin:/usr/local/bin:/app/.venv/bin"
 
-CMD ["/app/.venv/bin/pyrhon-crud-rest-api"]
+CMD ["/app/.venv/bin/pythoncrudrestapi"]
